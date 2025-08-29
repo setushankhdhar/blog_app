@@ -1,0 +1,20 @@
+{% extends "blog/base.html" %}
+{% block content %}
+  <h1>Blog Home</h1>
+  {% for post in posts %}
+    <article class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ post.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+          By {{ post.author }} on {{ post.date_posted|date:"F d, Y" }}
+        </h6>
+        {% if post.image %}
+          <img src="{{ post.image.url }}" class="img-fluid mb-2" alt="Post image">
+        {% endif %}
+        <p class="card-text">{{ post.content }}</p>
+      </div>
+    </article>
+  {% empty %}
+    <p>No posts yet.</p>
+  {% endfor %}
+{% endblock %}
