@@ -1,17 +1,16 @@
  Django Blog Application
 
-A full-featured Blog Application built with Django where users can register, log in, create blog posts, update profiles, and interact with content.  
+A full-featured Blog Application built with Django where users can register, log in, create blog posts and interact with content.  
 This project was developed as part of my learning and internship journey in web development.
 Features
 - User Authentication
   - Register, login, and logout functionality
   - Secure password handling
 - Blog Management
-  - Create, edit, and delete blog posts
+  - Create and delete blog posts
   - Add titles, content, and images
 - User Profiles
   - Profile page with user information
-  - Upload and update profile pictures
 - Dynamic Pages
   - Homepage with list of blog posts
   - Individual blog detail pages
