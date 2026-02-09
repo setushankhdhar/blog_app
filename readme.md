@@ -24,7 +24,7 @@ Features
 - Authentication: Django’s built-in authentication system
 
 ## Home Page-
-<img width="1920" height="1020" alt="Screenshot 2025-08-30 102511" src="https://github.com/user-attachments/assets/7a7f4671-5b19-4c42-ba3c-baadeadbf601" />
+![](https://github.com/user-attachments/assets/bc1ebe7a-51e4-47e7-938b-472d52dbeadb)
 
 ## About Page-
 <img width="1920" height="1020" alt="Screenshot 2025-08-30 102857" src="https://github.com/user-attachments/assets/43e4a15d-23fc-47c5-8989-faac5fe422fb" />
